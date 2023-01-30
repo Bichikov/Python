@@ -7,7 +7,6 @@
 # 6 -> 1 4 1
 # 24 -> 4 16 4
 # 60 -> 10 40 10
-
 number_of_cranes = int(input('Введите общее количество журавликов: '))
 
 petr_and_sergei = number_of_cranes // 6
