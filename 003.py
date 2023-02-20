@@ -7,9 +7,10 @@
 
 # 385916 -> yes
 # 123456 -> no
+
 ticket = int(input('Введите номер билета: '))
-while ticket > 999999 or ticket < 100000 :
-    ticket = int(input('Введите 6-ый номер билета: '))
+# while ticket > 999999 or ticket < 100000 :
+#     ticket = int(input('Введите 6-ый номер билета: '))
 
 ticket_1 = ticket
 sum_1 = 0
