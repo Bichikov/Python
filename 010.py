@@ -6,7 +6,20 @@
 
 # 5 -> 1 0 1 1 0
 # 2
-
-n = int(input())
-for i in range(1, n+1):
-    
+import random
+n = int(input("Введите число: "))
+count_zero = 0
+count_one = 0
+for i in range(n):
+    x = random.randint(0, 1)
+    print(x, end=" ")
+    if x == 0:
+        count_zero += 1
+    else:
+        count_one += 1
+if count_one > count_zero:
+    print("")
+    print(count_zero)
+else:
+    print("")
+    print(count_one)
